@@ -1,0 +1,39 @@
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #d2cbc5
+        }
+        #cercle{
+            width: 256px;
+            height: 256px;
+            border-radius: 256px;
+            background: #648bb6
+        }
+        #rectangle{
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            background-color: #D0B64D
+        }
+        #rectangle_allargat{
+            width: 100%;
+            height: 256px;
+            background-color: #c47246;
+        }
+        #triangle{
+            width: 0;
+            height: 0;
+            border-left: 256px solid transparent;
+            border-right: 256px solid transparent;
+            border-bottom: 256px solid black;
+        }
+        #elipse{
+            width: 400px;
+            height: 256px;
+            border-radius: 600px;
+            background: #c478c448;
+        }
+    </style>
